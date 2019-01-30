@@ -19,6 +19,8 @@
 		F33C8074220209C8000A274B /* C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F33C806F220209C8000A274B /* C.mp3 */; };
 		F33C8075220209C8000A274B /* D.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F33C8070220209C8000A274B /* D.mp3 */; };
 		F33C8076220209C8000A274B /* E.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F33C8071220209C8000A274B /* E.mp3 */; };
+		F33C807A22020F76000A274B /* Simulator Screen Shot Jan 30, 2019 at 11.58.03 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = F33C807822020F76000A274B /* Simulator Screen Shot Jan 30, 2019 at 11.58.03 AM.png */; };
+		F33C807B22020F76000A274B /* Simulator Screen Shot Jan 30, 2019 at 11.57.58 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = F33C807922020F76000A274B /* Simulator Screen Shot Jan 30, 2019 at 11.57.58 AM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		F33C806F220209C8000A274B /* C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C.mp3; path = Sounds/C.mp3; sourceTree = "<group>"; };
 		F33C8070220209C8000A274B /* D.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = D.mp3; path = Sounds/D.mp3; sourceTree = "<group>"; };
 		F33C8071220209C8000A274B /* E.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = E.mp3; path = Sounds/E.mp3; sourceTree = "<group>"; };
+		F33C807822020F76000A274B /* Simulator Screen Shot Jan 30, 2019 at 11.58.03 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot Jan 30, 2019 at 11.58.03 AM.png"; sourceTree = "<group>"; };
+		F33C807922020F76000A274B /* Simulator Screen Shot Jan 30, 2019 at 11.57.58 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot Jan 30, 2019 at 11.57.58 AM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 		F30382BD2200D79400F5CEC0 /* assignment1 */ = {
 			isa = PBXGroup;
 			children = (
+				F33C807722020F63000A274B /* Screenshots */,
 				F30382C12200D79400F5CEC0 /* AppDelegate.h */,
 				F30382C22200D79400F5CEC0 /* AppDelegate.m */,
 				F30382C42200D79400F5CEC0 /* ViewController.h */,
@@ -112,6 +117,15 @@
 				F33C8071220209C8000A274B /* E.mp3 */,
 			);
 			name = Sounds;
+			sourceTree = "<group>";
+		};
+		F33C807722020F63000A274B /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				F33C807822020F76000A274B /* Simulator Screen Shot Jan 30, 2019 at 11.58.03 AM.png */,
+				F33C807922020F76000A274B /* Simulator Screen Shot Jan 30, 2019 at 11.57.58 AM.png */,
+			);
+			name = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,11 +186,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F33C807A22020F76000A274B /* Simulator Screen Shot Jan 30, 2019 at 11.58.03 AM.png in Resources */,
 				F33C8076220209C8000A274B /* E.mp3 in Resources */,
 				F33C8074220209C8000A274B /* C.mp3 in Resources */,
 				F33C8073220209C8000A274B /* B.mp3 in Resources */,
 				F33C8072220209C8000A274B /* A.mp3 in Resources */,
 				F33C8075220209C8000A274B /* D.mp3 in Resources */,
+				F33C807B22020F76000A274B /* Simulator Screen Shot Jan 30, 2019 at 11.57.58 AM.png in Resources */,
 				F30382CE2200D79500F5CEC0 /* LaunchScreen.storyboard in Resources */,
 				F30382CB2200D79500F5CEC0 /* Assets.xcassets in Resources */,
 				F30382C92200D79500F5CEC0 /* Main.storyboard in Resources */,
