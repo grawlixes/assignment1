@@ -10,7 +10,5 @@
 
 @interface ViewController : UIViewController
 
-// @property (nonatomic, strong) IBOutlet UIButton *a, *b, *c, *d, *e;
-
 @end
 
